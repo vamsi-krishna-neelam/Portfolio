@@ -1,0 +1,61 @@
+{
+    "projects":[
+        {
+            "id":1,
+            "pic":"aslamstore.png",
+            "title":"Aslam StoreN",
+            "desc":"Aslam StoreN is a E-commerce website with stripe payment gateway and cart system,admin panel and user panel,add products and delete and feature product features",
+            "github":"https://github.com/Aslam554/Aslam-StoreN",
+            "website":"https://aslam-storen-1.onrender.com/"
+        },
+        {
+            "id":2,
+            "pic":"tubus.png",
+            "title":"Tezpur University Bus Booking Services",
+            "desc":"Tezpur University Bus Booking Services and Complaint System and Download Tickets as pdf",
+            "github":"https://github.com/Aslam554/Frontend-Bus-UI-React-Ts",
+            "website":"https://tubusservices.netlify.app/"
+        },
+        {
+            "id":3,
+            "pic":"tuhealth.png",
+            "title":"TU Health Care Website",
+            "desc":"HEALTH CARE AND APPOINTMENT BOOKING AND MENTAL HEALTH AWARENESS WEBSITE",
+            "github":"https://github.com/Aslam554/mentalhealth/tree/main/TUCareHealth",
+            "website":"https://tuhealthcentres.netlify.app/"
+        },
+        {
+            "id":4,
+            "pic":"tufood.png",
+            "title":"Aslam Eats Food Website ",
+            "desc":"Frontend Smoth animated UI of Food website",
+            "github":"https://github.com/Aslam554/FrontendFronzy_Mirza_Aslam_Beg",
+            "website":"https://frontendfrenzyaslambeg.netlify.app/"
+        },
+        {
+            "id":5,
+            "pic":"piano.png",
+            "title":"Piano Musical Website",
+            "desc":"Piano Playing Musical Website sa re ga ma pa dha ni sa ",
+            "github":"https://github.com/Aslam554/Piano-App",
+            "website":"https://pianomusicsite.netlify.app/"
+        },
+        {
+            "id":6,
+            "pic":"tts.png",
+            "title":"Aslam Text to Speech Website",
+            "desc":"Aslam Text to Speech Website it converts text to speech audio ",
+            "github":"https://github.com/Aslam554/Tts",
+            "website":"https://aslamtexttospeech.netlify.app/"
+        },
+        {
+            "id":7,
+            "pic":"tableread.png",
+            "title":"Maths Table Reader & Writer Website",
+            "desc":"Maths Table Reading Website It reads the table of the number given and also writes it",
+            "github":"https://github.com/Aslam554/Maths-Table-Reading-App",
+            "website":"https://mathtablereader.netlify.app/"
+        }
+        
+    ]
+}

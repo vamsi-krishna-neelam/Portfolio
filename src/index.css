@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+.bgclass {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('./images/hack.webp');
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-position: center;
+}
+
+.suse-title {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.raleway-semibold {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.raleway-bold {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.work-sans-regular {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Custom CSS for torch effect */
+.hero-section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pointer {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.5) 10%, transparent 60%);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease;
+    display: none;
+    z-index: 10; /* Ensure the pointer is above other elements */
+  }
+  
+  .hero-section:hover .pointer {
+    display: block;
+  }
+  
+  .hero-section:hover {
+    cursor: none; /* Hide default cursor */
+  }
+  
+  /* Ensure the navbar is always visible */
+  .navbar {
+    z-index: 20;
+    position: relative;
+  }
+/* Custom CSS for moving golden border effect */
+/* Custom CSS for moving golden border effect */
+@keyframes borderMove {
+  0% {
+    border-width: 3px 0 0 0;
+  }
+  25% {
+    border-width: 3px 3px 0 0;
+  }
+  50% {
+    border-width: 3px 3px 3px 0;
+  }
+  75% {
+    border-width: 3px 3px 3px 3px;
+  }
+  100% {
+    border-width: 3px;
+  }
+}
+
+.border-animation {
+  position: relative;
+  border: 3px solid gray;
+  
+  transition: border-color 0.5s ease;
+}
+
+.border-animation:hover {
+  border-color: red;
+  animation: borderMove 1s linear infinite;
+}
+
+
+
+
+@layer utilities{
+    .btns{
+        @apply  gap-4 rounded hover:bg-white hover:text-black  hover:rounded-bl-[15px] p-1 whitespace-nowrap hover:rounded-tr-[15px] hover:duration-300 hover:ease-in-out;
+       
+    }
+   
+}
