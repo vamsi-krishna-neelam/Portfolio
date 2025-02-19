@@ -4,6 +4,8 @@
 
 * {
     scroll-behavior: smooth;
+    font-family: monospace;
+    font-weight: 100;
 }
 
 .bgclass {
