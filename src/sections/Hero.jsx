@@ -22,9 +22,9 @@ export default function Hero() {
             "I am a Backend Developer", 
             "I am a Full Stack Developer", 
             "I am a Competitive Coder & Problem Solver", 
-            "Solved 100+ qsn 2⭐⭐Codechef",
-            "Solved 30+ qsn newbie Codeforces",
-            "Solved 300+ Leetcode DSA problems", 
+            "Solved 105+ qsn 2⭐⭐Codechef",
+            "Solved 120+ qsn pupils max 1254 Codeforces",
+            "Solved 400+ Leetcode DSA problems", 
             "4⭐ HackerRank DSA &Problem Solving",
           ]}
           className="text-2xl md:text-4xl lg:text-6xl text-[#ff004f] suse-title mb-6"
