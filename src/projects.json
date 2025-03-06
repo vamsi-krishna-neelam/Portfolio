@@ -10,6 +10,32 @@
         },
         {
             "id":2,
+            "pic":"postgrsstore.png",
+            "title":"Postgres Store",
+            "desc":"Postgres Store is a store managemnt website with smooth UI and postgres database doing CRUD operations",
+            "github":"https://github.com/Aslam554/pern-store",
+            "website":"https://pern-store-7jcp.onrender.com/"
+        },
+        {
+            "id":3,
+            "pic":"blogsite.png",
+            "title":"Aslam Coding Blog Writing Website",
+            "desc":"Aslam Coding Blog Writing Website with admin panel and user panel and CRUD operations.Users can write new blogs and delete and update them.It also fetch my youtube channel data and display it",
+            "github":"https://github.com/Aslam554/blog-website-aslamcoding",
+            "website":"https://drive.google.com/file/d/1IZrX-xrp_XPS_yIeDZJmh180Zyg2GI9D/view?usp=sharing"
+        
+        },
+        {
+            "id":4,
+            "pic":"storybot.png",
+            "title":"StoryBot AI Chatbot Website",
+            "desc":"StoryBot AI Chatbot can write stories and poems in both hindi and english language",
+            "github":"https://github.com/Aslam554/storybot_genai",
+            "website":"https://youtube.com/shorts/h3XJgOrTmYo?si=wPRogpz7YVj-pRag"
+        
+        },
+        {
+            "id":4,
             "pic":"tubus.png",
             "title":"Tezpur University Bus Booking Services",
             "desc":"Tezpur University Bus Booking Services and Complaint System and Download Tickets as pdf",
@@ -17,7 +43,7 @@
             "website":"https://tubusservices.netlify.app/"
         },
         {
-            "id":3,
+            "id":5,
             "pic":"tuhealth.png",
             "title":"TU Health Care Website",
             "desc":"HEALTH CARE AND APPOINTMENT BOOKING AND MENTAL HEALTH AWARENESS WEBSITE",
@@ -25,7 +51,7 @@
             "website":"https://tuhealthcentres.netlify.app/"
         },
         {
-            "id":4,
+            "id":6,
             "pic":"tufood.png",
             "title":"Aslam Eats Food Website ",
             "desc":"Frontend Smoth animated UI of Food website",
@@ -33,7 +59,7 @@
             "website":"https://frontendfrenzyaslambeg.netlify.app/"
         },
         {
-            "id":5,
+            "id":7,
             "pic":"piano.png",
             "title":"Piano Musical Website",
             "desc":"Piano Playing Musical Website sa re ga ma pa dha ni sa ",
@@ -41,7 +67,7 @@
             "website":"https://pianomusicsite.netlify.app/"
         },
         {
-            "id":6,
+            "id":8,
             "pic":"tts.png",
             "title":"Aslam Text to Speech Website",
             "desc":"Aslam Text to Speech Website it converts text to speech audio ",
@@ -49,7 +75,7 @@
             "website":"https://aslamtexttospeech.netlify.app/"
         },
         {
-            "id":7,
+            "id":9,
             "pic":"tableread.png",
             "title":"Maths Table Reader & Writer Website",
             "desc":"Maths Table Reading Website It reads the table of the number given and also writes it",
