@@ -2,7 +2,7 @@ export default function ProjectBox({ pic, title, desc, github, website }) {
   return (
     <div className="border border-gray-500 shadow-lg rounded-[50px_0_50px_0] hover:scale-[1.05] duration-500 hover:ease-in-out hover:translate-x-2 bg-black text-white p-2 overflow-hidden">
       <div>
-        <img src={"projectsnap/" + pic} alt="" className="rounded-t-[50px_0_50px_0] w-full h-48 md:h-56 lg:h-64 object-cover" />
+        <img src={"projectsnap/" + pic} alt="" className=" w-full h-48 md:h-56 lg:h-64 object-contain" />
       </div>
       <div className="p-4">
         <p className="text-xl md:text-2xl raleway-bold mb-4">{title}</p>

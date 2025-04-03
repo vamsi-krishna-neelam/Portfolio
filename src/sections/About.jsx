@@ -19,7 +19,7 @@ export default function About() {
             Meet Aslam, a <span className="text-[#ff004f]">Full Stack Developer</span> and <span className="text-[#ff004f]">Competitive Coder.</span>
           </p>
           <p className="work-sans-regular text-base md:text-xl mt-4">
-            Pursuing B.Tech in Electronics and Communication Engineering (ECE) at Tezpur University, Assam. Skilled in frontend and backend development, proficient in translating complex requirements into elegant solutions, and driven by a passion for continuous learning and innovation. 2star Codechef max 1563,pupils max 1320 Codeforces,Solved 450+ DSA questions on LeetCode, 4-star rating on HackerRank in DSA,total 650+ dsa qsn solved.
+            Pursuing B.Tech in Electronics and Communication Engineering (ECE) at Tezpur University, Assam. Skilled in <span className="text-[#ff004f]">frontend and backend</span> development, proficient in translating complex requirements into elegant solutions, and driven by a passion for continuous learning and innovation. <span className="text-[#ff004f]">3star Codechef</span>(max 1612),<span className="text-[#ff004f]">pupils Codeforces</span>(max 1255) ,Solved <span className="text-[#ff004f]">530+ DSA questions</span> on LeetCode (max 1818), <span className="text-[#ff004f]">4-star</span> rating on HackerRank in DSA, <span className="text-[#ff004f]">total 850+ dsa qsn</span>  solved.
           </p>
           <div className="mt-4 md:mt-8">
             <Social />
