@@ -29,7 +29,7 @@
             "id":4,
             "pic":"blogsite.png",
             "title":"Aslam Coding Blog Writing Website",
-            "desc":"Aslam Coding Blog Writing Website with admin panel and user panel and CRUD operations.Users can write new blogs and delete and update them.It also fetch my youtube channel data and display it",
+            "desc":"Aslam Coding Blog Writing Website with admin panel and user panel and CRUD operations.Users can write new blogs.It also fetch my youtube channel data and display it",
             "github":"https://github.com/Aslam554/blog-website-aslamcoding",
             "website":"https://drive.google.com/file/d/1IZrX-xrp_XPS_yIeDZJmh180Zyg2GI9D/view?usp=sharing"
         
