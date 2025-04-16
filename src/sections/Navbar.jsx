@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-[#111] shadow-md border-b border-teal-600 w-full fixed top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-3 flex justify-between items-center">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-2 md:px-2 py-3 flex justify-between items-center">
         {/* Logo and Name */}
         <button
           onClick={() => handleClick("hero")}
@@ -76,7 +76,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#111] px-6 pb-4 space-y-3">
+        <div className="md:hidden bg-[#111] px-1 pb-4 space-y-3">
           {navItems.map((item) => (
             <button
               key={item.id}

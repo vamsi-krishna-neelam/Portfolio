@@ -14,8 +14,8 @@ function App() {
   }, []);
 
   return (
-    <div className="">
-      <div className="fixed w-screen h-[10%]">
+    <div className="w-full h-full bg-black text-white font-raleway overflow-x-hidden">
+      <div className="">
         <Navbar />
       </div>
       <div id="hero">
