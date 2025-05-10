@@ -1,12 +1,21 @@
 export default function ProjectBox({ pic, title, desc, github, website }) {
   return (
-    <div className="border border-gray-500 shadow-lg rounded-[50px_0_50px_0] hover:scale-[1.05] duration-500 hover:ease-in-out hover:translate-x-2 bg-black text-white p-2 overflow-hidden">
+    <div
+      className="border border-gray-500 shadow-lg rounded-lg  duration-500 hover:ease-in-out border-2 border-white/10 hover:border-teal-300 bg-black text-white p-2 overflow-hidden"
+      style={{ width: "400px", height: "500px" }} // Set fixed width and height
+    >
       <div>
-        <img src={"projectsnap/" + pic} alt="" className=" w-full h-48 md:h-56 lg:h-64 object-contain" />
+        <img
+          src={"projectsnap/" + pic}
+          alt=""
+          className="w-full h-48 md:h-56 lg:h-64 object-contain"
+        />
       </div>
       <div className="p-4">
-        <p className="text-xl md:text-2xl raleway-bold mb-4">{title}</p>
-        <p className="text-base md:text-lg text-gray-300 work-sans-regular mb-4 uppercase">{desc}</p>
+        <p className="text-xl md:text-xl raleway-bold mb-4">{title}</p>
+        <p className="text-base md:text-[12px] text-gray-300 work-sans-regular mb-4 uppercase">
+          {desc}
+        </p>
       </div>
       <div className="p-4 pt-0 mb-4 flex flex-col md:flex-row gap-4">
         <a

@@ -31,13 +31,11 @@ export default function ContactMe() {
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          access_key: '13934743-89de-4a61-9d06-f64ebaf4bd69', // Replace with your Web3Forms access key
-          ...formData
-        })
+          access_key: '13934743-89de-4a61-9d06-f64ebaf4bd69',
+          ...formData,
+        }),
       });
       if (response.ok) {
         setFormStatus('Success! Thank you for your message.');
@@ -55,8 +53,12 @@ export default function ContactMe() {
       <p className="raleway-bold text-4xl">Contact Me</p>
       <div className="w-full h-1 rounded-sm bg-white my-6 mb-8"></div>
 
-      <div className="md:flex md:gap-2">
-        <div className="md:w-1/2">
+      <div className="relative md:flex md:gap-10 items-start">
+        {/* Background vertical divider */}
+        <div className="hidden md:block absolute left-1/2 top-0 h-full w-[2px] bg-white/20 -translate-x-1/2"></div>
+
+        {/* Form Section */}
+        <div className="md:w-1/2 z-10">
           <p className="work-sans-regular text-lg">
             If you want to know more about me or my work, or if you would just like to say hello, send me a message. I&apos;d love to hear from you.
           </p>
@@ -68,7 +70,7 @@ export default function ContactMe() {
               name="name"
               value={formData.name}
               onChange={handleInputChange}
-              className="w-full my-4 px-4 py-2 rounded-xl bg-gray-900 text-white placeholder-gray-500"
+              className="w-full my-3 px-4 py-2 bg-white text-black placeholder-gray-500"
               placeholder="Your name"
             />
             {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
@@ -79,7 +81,7 @@ export default function ContactMe() {
               name="email"
               value={formData.email}
               onChange={handleInputChange}
-              className="w-full my-4 px-4 py-2 rounded-xl bg-gray-900 text-white placeholder-gray-500"
+              className="w-full my-3 px-4 py-2 bg-white text-black placeholder-gray-500"
               placeholder="Your email address"
             />
             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
@@ -89,8 +91,9 @@ export default function ContactMe() {
               name="message"
               value={formData.message}
               onChange={handleInputChange}
-              className="w-full my-4 px-4 py-2 rounded-xl bg-gray-900 text-white placeholder-gray-500"
+              className="w-full my-3 px-4 py-2 bg-white text-black placeholder-gray-500"
               placeholder="Your message"
+              rows={5}
             />
             {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
 
@@ -102,7 +105,7 @@ export default function ContactMe() {
               >
                 Send me email directly
               </a>
-              <button type="submit" className="px-4 py-2 work-sans-regular bg-white text-black rounded-xl hover:bg-gray-500 hover:text-white">
+              <button type="submit" className="w-[60%] px-4 py-3 mt-4 bg-[#00b09b] text-white  hover:bg-pink-600 transition duration-300">
                 Submit
               </button>
             </div>
@@ -110,17 +113,29 @@ export default function ContactMe() {
           </form>
         </div>
 
+<<<<<<< HEAD
         <div className="md:w-1/2 text-left md:text-right">
           <div className="text-xl mb-4 mt-16 md:mt-24 work-sans-regular">Email:</div>
           <div className="text-3xl suse-title">vamsikrishnaneelam111@gmail.com</div>
           <div className="text-xl mb-4 mt-16 work-sans-regular">Location:</div>
           <div className="text-3xl suse-title">Guntur, Andhra Pradesh</div>
+=======
+        {/* Contact Info Section */}
+        <div className="md:w-1/2 text-left md:text-right mt-16 md:mt-0 z-10">
+          <div className="text-xl mb-4 work-sans-regular">Email:</div>
+          <div className="text-3xl suse-title">begaslam405@gmail.com</div>
+
+          <div className="text-xl mb-4 mt-16 work-sans-regular">Location:</div>
+          <div className="text-3xl suse-title">Ghazipur, Uttar Pradesh</div>
+
+>>>>>>> 25e3d6586b046ca1a3729ef07499d38e277e53eb
           <div className="text-xl mb-4 mt-16 work-sans-regular">Social:</div>
           <div className="flex justify-start md:justify-end">
             <Social />
           </div>
         </div>
       </div>
+
       <footer className="mt-16 text-center">
         <p className="text-sm work-sans-regular">Created with great ❤️ by Vamsi Krishna | All rights reserved</p>
       </footer>

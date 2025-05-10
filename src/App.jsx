@@ -6,6 +6,7 @@ import Education from "./sections/Education";
 import TeckStack from "./sections/TeckStack";
 import Projects from "./sections/Projects";
 import ContactMe from "./sections/ContactMe";
+import Achievement from "./sections/Achievement";
 
 function App() {
   useEffect(() => {
@@ -13,8 +14,8 @@ function App() {
   }, []);
 
   return (
-    <div className="">
-      <div className="fixed w-screen h-[10%]">
+    <div className="w-full h-full bg-black text-white font-raleway overflow-x-hidden">
+      <div className="">
         <Navbar />
       </div>
       <div id="hero">
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div id="about">
         <About />
+      </div>
+      <div id="achievements">
+        <Achievement/>
       </div>
       <div id="education">
         <Education />

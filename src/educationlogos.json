@@ -2,11 +2,19 @@
     "values":[
     { 
         "id":1,
+<<<<<<< HEAD
         "name":"Chalapathi Institute Of Engineering & Technology,Guntur, Andhra Pradesh",
         "logo":"CIET-Logo.jpg",
         "branch": "Pursuing Btech 3rd year in stream of  Computer Science & Engineering",
         "year":"2022-2026",
         "grade":"75"
+=======
+        "name":"SoE,Tezpur University,Nappam Tezpur Assam",
+        "logo":"tu.png",
+        "branch": "Btech. Electronics and Communication Engineering",
+        "year":"2024-2028",
+        "grade":"7.30 CGPA"
+>>>>>>> 25e3d6586b046ca1a3729ef07499d38e277e53eb
     },
     { 
         "id":2,
@@ -20,9 +28,15 @@
         "id":3,
         "name":"Bhavishya High School,Addanki",
         "logo":"stmr.jpg",
+<<<<<<< HEAD
         "branch": "SSC(10th)",
         "year":"2020",
         "grade":10
+=======
+        "branch": "CISCE 10th - Maths, Science, English, Hindi, Social Science,Computer",
+        "year":"2022",
+        "grade":97.33
+>>>>>>> 25e3d6586b046ca1a3729ef07499d38e277e53eb
     }
     
 ]

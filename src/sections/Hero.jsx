@@ -17,24 +17,34 @@ export default function Hero() {
           Hi, I&apos;m Vamsi Krishna     ffwfss  
           
         </p>
-        <Typing 
+        <Typing
           text={[
+<<<<<<< HEAD
             "I am a Frontend Developer", 
             
             "I am a Full Stack Developer", 
             "I am a Competitive Coder & Problem Solver", 
             "Solved 170+ qsn 2⭐⭐Codechef",
             "Solved 150+ Leetcode DSA problems", 
+=======
+            "I am a Full Stack Developer",
+            "Solved 580+ Leetcode DSA problems",
+            "I am a Frontend Developer",
+            "I am a Backend Developer",
+            "I am a Competitive Coder & Problem Solver",
+            "Solved 115+ qsn 2⭐⭐Codechef",
+            "Solved 130+ qsn pupils max 1320 Codeforces",
+>>>>>>> 25e3d6586b046ca1a3729ef07499d38e277e53eb
             "4⭐ HackerRank DSA &Problem Solving",
           ]}
-          className="text-2xl md:text-4xl lg:text-6xl text-[#ff004f] suse-title mb-6"
+          className="text-xl md:text-3xl lg:text-5xl text-[#00b09b] suse-title mb-6"
           speed={100}
           eraseSpeed={50}
           typingDelay={500}
           eraseDelay={1000}
         />
         <div className="flex justify-center mt-6" data-aos="fade-up">
-          <div className="w-48 px-8 py-4 text-center bg-gray-800 hover:bg-black text-white rounded-xl text-lg">
+          <div className="px-4 py-2 rounded font-semibold bg-gradient-to-r from-teal-500 to-cyan-500 text-white shadow hover:shadow-lg transition">
             <ResumeButton />
           </div>
         </div>
