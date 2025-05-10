@@ -2,95 +2,11 @@
     "projects":[
         {
             "id":1,
-            "pic":"aslamstore.png",
-            "title":"Aslam StoreN",
-            "desc":"Aslam StoreN is a E-commerce website with stripe payment gateway and cart system,admin panel and user panel,add products and delete and feature product features",
-            "github":"https://github.com/Aslam554/Aslam-StoreN",
-            "website":"https://aslam-storen-1.onrender.com/"
-        },
-        {
-            "id":2,
-            "pic":"postgrsstore.png",
-            "title":"Postgres Store",
-            "desc":"Postgres Store is a store managemnt website with smooth UI and postgres database doing CRUD operations",
-            "github":"https://github.com/Aslam554/pern-store",
-            "website":"https://pern-store-7jcp.onrender.com/"
-        },
-        {
-            "id":3,
-            "pic":"richtext.png",
-            "title":"Rich Text Editor with Gemini AI",
-            "desc":"Rich Text Editor with Gemini AI Website with file createtion,deletion ,saving and copy text data to clipboard",
-            "github":"https://github.com/Aslam554/Rich-Text-Editor",
-            "website":"https://richtexteditors.netlify.app/"
-        
-        },
-        {
-            "id":4,
-            "pic":"blogsite.png",
-            "title":"Aslam Coding Blog Writing Website",
-            "desc":"Aslam Coding Blog Writing Website with admin panel and user panel and CRUD operations.Users can write new blogs and delete and update them.It also fetch my youtube channel data and display it",
-            "github":"https://github.com/Aslam554/blog-website-aslamcoding",
-            "website":"https://drive.google.com/file/d/1IZrX-xrp_XPS_yIeDZJmh180Zyg2GI9D/view?usp=sharing"
-        
-        },
-        {
-            "id":5,
-            "pic":"storybot.png",
-            "title":"StoryBot AI Chatbot Website",
-            "desc":"StoryBot AI Chatbot can write stories and poems in both hindi and english language",
-            "github":"https://github.com/Aslam554/storybot_genai",
-            "website":"https://youtube.com/shorts/h3XJgOrTmYo?si=wPRogpz7YVj-pRag"
-        
-        },
-        {
-            "id":6,
-            "pic":"tubus.png",
-            "title":"Tezpur University Bus Booking Services",
-            "desc":"Tezpur University Bus Booking Services and Complaint System and Download Tickets as pdf",
-            "github":"https://github.com/Aslam554/Frontend-Bus-UI-React-Ts",
-            "website":"https://tubusservices.netlify.app/"
-        },
-        {
-            "id":7,
-            "pic":"tuhealth.png",
-            "title":"TU Health Care Website",
-            "desc":"HEALTH CARE AND APPOINTMENT BOOKING AND MENTAL HEALTH AWARENESS WEBSITE",
-            "github":"https://github.com/Aslam554/mentalhealth/tree/main/TUCareHealth",
-            "website":"https://tuhealthcentres.netlify.app/"
-        },
-        {
-            "id":8,
-            "pic":"tufood.png",
-            "title":"Aslam Eats Food Website ",
-            "desc":"Frontend Smoth animated UI of Food website",
-            "github":"https://github.com/Aslam554/FrontendFronzy_Mirza_Aslam_Beg",
-            "website":"https://frontendfrenzyaslambeg.netlify.app/"
-        },
-        {
-            "id":9,
-            "pic":"piano.png",
-            "title":"Piano Musical Website",
-            "desc":"Piano Playing Musical Website sa re ga ma pa dha ni sa ",
-            "github":"https://github.com/Aslam554/Piano-App",
-            "website":"https://pianomusicsite.netlify.app/"
-        },
-        {
-            "id":10,
-            "pic":"tts.png",
-            "title":"Aslam Text to Speech Website",
-            "desc":"Aslam Text to Speech Website it converts text to speech audio ",
-            "github":"https://github.com/Aslam554/Tts",
-            "website":"https://aslamtexttospeech.netlify.app/"
-        },
-        {
-            "id":11,
-            "pic":"tableread.png",
-            "title":"Maths Table Reader & Writer Website",
-            "desc":"Maths Table Reading Website It reads the table of the number given and also writes it",
-            "github":"https://github.com/Aslam554/Maths-Table-Reading-App",
-            "website":"https://mathtablereader.netlify.app/"
+            "pic":"vamsiStore.png",
+            "title":"vamsi StoreN",
+            "desc":"Vamsi StoreN is a E-commerce website with stripe payment gateway and cart system,admin panel and user panel,add products and delete and feature product features",
+            "github":"https://github.com/vamsi-krishna-neelam/Ecommerce",
+            "website":"http://localhost/ecommerce/index.php"
         }
-        
     ]
 }

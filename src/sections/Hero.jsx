@@ -7,24 +7,24 @@ import Social from "../components/Social";
 
 export default function Hero() {
   useEffect(() => {
-    AOS.init({ duration: 1000, easing: 'ease-in-out', once: true });
+    AOS.init({ duration: 2000, easing: 'ease-in-out', once: true });
   }, []);
 
   return (
     <div className="bgclass flex justify-center items-center h-screen pt-48 md:pt-36"> {/* Adjusted padding-top for small screens */}
       <div className="text-center w-full px-4 md:px-8 lg:px-16">
         <p className="text-3xl md:text-5xl lg:text-8xl mb-6 sm:mb-12 sm:mt-6 text-white suse-title" data-aos="fade-up">
-          Hi, I&apos;m Mirza Aslam Beg
+          Hi, I&apos;m Vamsi Krishna     ffwfss  
+          
         </p>
         <Typing 
           text={[
             "I am a Frontend Developer", 
-            "I am a Backend Developer", 
+            
             "I am a Full Stack Developer", 
             "I am a Competitive Coder & Problem Solver", 
-            "Solved 115+ qsn 2⭐⭐Codechef",
-            "Solved 130+ qsn pupils max 1320 Codeforces",
-            "Solved 450+ Leetcode DSA problems", 
+            "Solved 170+ qsn 2⭐⭐Codechef",
+            "Solved 150+ Leetcode DSA problems", 
             "4⭐ HackerRank DSA &Problem Solving",
           ]}
           className="text-2xl md:text-4xl lg:text-6xl text-[#ff004f] suse-title mb-6"

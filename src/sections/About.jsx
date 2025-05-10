@@ -16,11 +16,12 @@ export default function About() {
         </div>
         <div className="lg:w-1/2 py-8 md:py-12 px-4 md:px-12 text-white">
           <p className="work-sans-regular text-2xl md:text-5xl text-white font-extrabold mb-4 md:mb-6">
-            Meet Aslam, a <span className="text-[#ff004f]">Full Stack Developer</span> and <span className="text-[#ff004f]">Competitive Coder.</span>
+            Meet Vamsi Krishna, as a <span className="text-[#ff004f]">Full Stack Developer</span> and <span className="text-[#ff004f]">Competitive Coder.</span>
           </p>
           <p className="work-sans-regular text-base md:text-xl mt-4">
-            Pursuing B.Tech in Electronics and Communication Engineering (ECE) at Tezpur University, Assam. Skilled in <span className="text-[#ff004f]">frontend and backend</span> development, proficient in translating complex requirements into elegant solutions, and driven by a passion for continuous learning and innovation. <span className="text-[#ff004f]">3star Codechef</span>(max 1612),<span className="text-[#ff004f]">pupils Codeforces</span>(max 1255) ,Solved <span className="text-[#ff004f]">530+ DSA questions</span> on LeetCode (max 1818), <span className="text-[#ff004f]">4-star</span> rating on HackerRank in DSA, <span className="text-[#ff004f]">total 850+ dsa qsn</span>  solved.
-          </p>
+  Pursuing B.Tech in Computer Science and Engineering. Skilled in <span className="text-[#ff004f]">frontend and backend</span> development, proficient in translating complex requirements into elegant solutions, and driven by a passion for continuous learning and innovation. <span className="text-[#ff004f]">Google AI/ML Certified Intern</span>, <span className="text-[#ff004f]">Software Intern at Cyanvave</span>, and <span className="text-[#ff004f]">Frontend Developer</span>. Solved <span className="text-[#ff004f]">150+ DSA questions</span> on LeetCode, passionate about Java and Data Structures. Part of <span className="text-[#ff004f]">Innovative Matrix</span> team, working on real-world web projects using React.js and PHP.
+</p>
+
           <div className="mt-4 md:mt-8">
             <Social />
           </div>

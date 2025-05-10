@@ -112,9 +112,9 @@ export default function ContactMe() {
 
         <div className="md:w-1/2 text-left md:text-right">
           <div className="text-xl mb-4 mt-16 md:mt-24 work-sans-regular">Email:</div>
-          <div className="text-3xl suse-title">begaslam405@gmail.com</div>
+          <div className="text-3xl suse-title">vamsikrishnaneelam111@gmail.com</div>
           <div className="text-xl mb-4 mt-16 work-sans-regular">Location:</div>
-          <div className="text-3xl suse-title">Ghazipur, Uttar Pradesh</div>
+          <div className="text-3xl suse-title">Guntur, Andhra Pradesh</div>
           <div className="text-xl mb-4 mt-16 work-sans-regular">Social:</div>
           <div className="flex justify-start md:justify-end">
             <Social />
@@ -122,7 +122,7 @@ export default function ContactMe() {
         </div>
       </div>
       <footer className="mt-16 text-center">
-        <p className="text-sm work-sans-regular">Created with great ❤️ by Aslam Beg | All rights reserved</p>
+        <p className="text-sm work-sans-regular">Created with great ❤️ by Vamsi Krishna | All rights reserved</p>
       </footer>
     </div>
   );

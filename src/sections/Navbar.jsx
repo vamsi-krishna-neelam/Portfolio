@@ -33,7 +33,7 @@ export default function Navbar() {
                className="h-12 md:h-10 w-12 md:w-10 rounded-full border-4 border-gray-800 hover:border-white transition duration-300 ease-in-out"
                alt="Logo" /> {/* Circular and amazing logo with animated border */}
         </button>
-        <h1 className="text-xl md:text-lg font-serif text-gray-800 dark:text-white">Mirza Aslam Beg</h1> {/* User name in serif style */}
+        <h1 className="text-xl md:text-lg font-serif text-gray-800 dark:text-white">Vamsi Krishna Neelam</h1> {/* User name in serif style */}
       </div>
       <div className="hidden md:flex gap-4 text-lg md:text-white raleway-semibold">
         <button onClick={() => handleClick("about")} className="btns" data-aos="fade-up">About</button>

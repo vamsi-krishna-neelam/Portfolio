@@ -2,27 +2,27 @@
     "values":[
     { 
         "id":1,
-        "name":"Tezpur University SoE(School of Engineering),Tezpur Assam",
-        "logo":"tu.png",
-        "branch": "Btech. Electronics and Communication Engineering",
-        "year":"2024-2028",
-        "grade":"7.30 CGPA"
+        "name":"Chalapathi Institute Of Engineering & Technology,Guntur, Andhra Pradesh",
+        "logo":"CIET-Logo.jpg",
+        "branch": "Pursuing Btech 3rd year in stream of  Computer Science & Engineering",
+        "year":"2022-2026",
+        "grade":"75"
     },
     { 
         "id":2,
-        "name":"Crescent Convent School, DildarNagar",
+        "name":"Viswabharathi Junior College, Addanki",
         "logo":"cres.jpg",
-        "branch": "CBSE 12th - Maths + Physical Education",
-        "year":"2024",
-        "grade":85
+        "branch": "Board Of Intermediate Education",
+        "year":"2020-2022",
+        "grade":93
     },
     { 
         "id":3,
-        "name":"St. Marys School,Zamania",
+        "name":"Bhavishya High School,Addanki",
         "logo":"stmr.jpg",
-        "branch": "CISCE(10th)",
-        "year":"2022",
-        "grade":97.33
+        "branch": "SSC(10th)",
+        "year":"2020",
+        "grade":10
     }
     
 ]
